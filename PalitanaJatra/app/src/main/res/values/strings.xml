@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BMP 6/7 Jatra</string>
+    <string name="title_activity_time_table">TimeTableActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

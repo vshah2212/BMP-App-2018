@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@mipmap/bmpapp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vshah2212.palitanajatra.EmergencyActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Emer1"
+        android:layout_centerHorizontal="true"
+        android:text="Click on name to place call"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/Emer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_above="@+id/Emer2"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:text="Vipul Bagadia: 09820061628" />
+
+    <TextView
+        android:id="@+id/Emer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Emer3"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:text="Hiren Shah: 09920499406" />
+
+    <TextView
+        android:id="@+id/Emer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:text="Kalpesh Shah: 09820818142" />
+
+    <TextView
+        android:id="@+id/Emer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Emer3"
+        android:textSize="25dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000000"
+        android:text="Japen Shah: 09820309260" />
+
+    <TextView
+        android:id="@+id/Emer5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Emer4"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:layout_marginBottom="15dp"
+        android:text="Amit Shah: 09820722244" />
+
+    <TextView
+        android:id="@+id/Emer6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Emer5"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="Nilesh Vasa: 09892199971" />
+
+
+
+</RelativeLayout>

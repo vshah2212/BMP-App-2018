@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bmpapp"
+    tools:context="vshah2212.palitanajatra.YatriDetails">
+
+    <TextView
+        android:id="@+id/textView1Det"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:text="Yatrik Number:" />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/textYNoDet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textView1Det"
+        android:textSize="18dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:text="Unavailable" />
+
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView2Det"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1Det"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="Yatrik Name:" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textYNameDet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2Det"
+        android:textSize="24dp"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:text="Unavailable" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/roomDet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textYNameDet"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="Room number:" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/roomVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textYNameDet"
+        android:layout_toRightOf="@+id/roomDet"
+        android:textSize="22dp"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:text="Unavailable" />
+
+    <TextView
+        android:id="@+id/TrainDet"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/roomDet"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="Return Train Details:"/>
+    <TextView
+        android:id="@+id/CoachDet"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TrainDet"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Coach: "/>
+    <TextView
+        android:id="@+id/CoachVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/CoachDet"
+        android:layout_below="@+id/TrainDet"
+        android:layout_marginTop="5dp"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:text="Unavailable" />
+    <TextView
+        android:id="@+id/SeatDet"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CoachDet"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="Seat number: "/>
+    <TextView
+        android:id="@+id/SeatVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/SeatDet"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/CoachDet"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:text="Unavailable" />
+
+
+
+</RelativeLayout>

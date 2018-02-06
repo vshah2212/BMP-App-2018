@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bmpapp"
+    tools:context="vshah2212.palitanajatra.TimeTableActivity">
+
+    <Button
+        android:layout_marginTop="80dp"
+        android:id="@+id/day1"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/day2"
+        android:layout_alignParentTop="true"
+        android:text="Day 1"/>
+
+    <Button
+        android:layout_marginTop="80dp"
+        android:id="@+id/day2"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/day3"
+        android:layout_alignParentTop="true"
+        android:text="Day 2"/>
+
+    <Button
+        android:layout_marginTop="80dp"
+        android:id="@+id/day3"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Day 3"/>
+
+    <Button
+        android:layout_marginTop="80dp"
+        android:id="@+id/day4"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/day3"
+        android:layout_alignParentTop="true"
+        android:text="Day 4"/>
+
+    <Button
+        android:layout_marginTop="80dp"
+        android:id="@+id/day5"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/day4"
+        android:layout_alignParentTop="true"
+        android:text="Day 5"/>
+
+    <TextView
+        android:id="@+id/dateT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/day3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="Date:"/>
+
+    <TextView
+        android:id="@+id/dateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateT"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="#ff0000"
+        android:text="Select Day"/>
+
+    <ScrollView
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/dateView"
+        android:layout_centerHorizontal="true">
+    <TableLayout
+        android:id="@+id/TableLay"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/dateView">
+        <TableRow>
+            <TextView
+                android:text="Time"
+                android:textSize="20dp"
+                android:textColor="#000000" />
+            <TextView
+                android:text="Program"
+                android:textSize="20dp"
+                android:textColor="#000000"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/t1"
+                android:text="Select Day"
+                android:textSize="20dp"
+                android:textColor="#ff0000" />
+            <TextView
+                android:id="@+id/p1"
+                android:text="Select Day"
+                android:textSize="20dp"
+                android:textColor="#ff0000"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/t2"
+                android:text="Select Day"
+                android:textSize="20dp"
+                android:textColor="#ff0000" />
+            <TextView
+                android:id="@+id/p2"
+                android:text="Select Day"
+                android:textSize="20dp"
+                android:textColor="#ff0000"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/t3"
+                android:text="Select Day"
+                android:textSize="20dp"
+                android:textColor="#ff0000" />
+            <TextView
+                android:id="@+id/p3"
+                android:text="Select Day"
+                android:textSize="20dp"
+                android:textColor="#ff0000"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/t4"
+                android:text="Select Day"
+                android:textSize="20dp"
+                android:textColor="#ff0000" />
+            <TextView
+                android:id="@+id/p4"
+                android:text="Select Day"
+                android:textSize="20dp"
+                android:textColor="#ff0000"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/t5"
+                android:text="Select Day"
+                android:textSize="20dp"
+                android:textColor="#ff0000" />
+            <TextView
+                android:id="@+id/p5"
+                android:text="Select Day"
+                android:textSize="20dp"
+                android:textColor="#ff0000"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/t6"
+                android:text="Select Day"
+                android:textSize="20dp"
+                android:textColor="#ff0000" />
+            <TextView
+                android:id="@+id/p6"
+                android:text="Select Day"
+                android:textSize="20dp"
+                android:textColor="#ff0000"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/t7"
+                android:text="Select Day"
+                android:textSize="20dp"
+                android:textColor="#ff0000" />
+            <TextView
+                android:id="@+id/p7"
+                android:text="Select Day"
+                android:textSize="20dp"
+                android:textColor="#ff0000"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/t8"
+                android:text="Select Day"
+                android:textSize="20dp"
+                android:textColor="#ff0000" />
+            <TextView
+                android:id="@+id/p8"
+                android:text="Select Day"
+                android:textSize="20dp"
+                android:textColor="#ff0000"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/t9"
+                android:text="Select Day"
+                android:textSize="20dp"
+                android:textColor="#ff0000" />
+            <TextView
+                android:id="@+id/p9"
+                android:text="Select Day"
+                android:textSize="20dp"
+                android:textColor="#ff0000"/>
+        </TableRow>
+
+    </TableLayout>
+    </ScrollView>
+</RelativeLayout>

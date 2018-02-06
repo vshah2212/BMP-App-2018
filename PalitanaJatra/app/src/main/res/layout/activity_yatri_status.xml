@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bmpapp"
+    tools:context="vshah2212.palitanajatra.YatriStatus">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:text="Yatrik Number:" />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/textYNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textView1"
+        android:textSize="18dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:text="Unavailable" />
+
+
+
+
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="Yatrik Name:" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textYName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:textSize="24dp"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:text="Unavailable" />
+
+
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textYName"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="Jatras completed:" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/textYJatra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_below="@id/textYName"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:text="Unavailable" />
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textJ"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="Jatra completion times:" />
+
+
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textJ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textJ"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Jatra 1: " />
+    <TextView
+        android:id="@+id/J1Text"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textJ1"
+        android:layout_below="@+id/textJ"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:text="Unavailable"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textJ2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textJ1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Jatra 2: " />
+    <TextView
+        android:id="@+id/J2Text"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textJ2"
+        android:layout_below="@+id/textJ1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:text="Unavailable"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textJ3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textJ2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Jatra 3: " />
+    <TextView
+        android:id="@+id/J3Text"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textJ3"
+        android:layout_below="@+id/textJ2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:text="Unavailable"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textJ4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textJ3"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Jatra 4: " />
+    <TextView
+        android:id="@+id/J4Text"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textJ4"
+        android:layout_below="@+id/textJ3"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:text="Unavailable"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textJ5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textJ4"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Jatra 5: " />
+    <TextView
+        android:id="@+id/J5Text"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textJ5"
+        android:layout_below="@+id/textJ4"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:text="Unavailable"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textJ6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textJ5"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Jatra 6: " />
+    <TextView
+        android:id="@+id/J6Text"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textJ6"
+        android:layout_below="@+id/textJ5"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:text="Unavailable"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textJ7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textJ6"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Jatra 7: " />
+    <TextView
+        android:id="@+id/J7Text"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textJ7"
+        android:layout_below="@+id/textJ6"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:text="Unavailable"/>
+
+
+</RelativeLayout>
